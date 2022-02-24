@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(19, 1, 31);
+    font-family: "Fredoka One";
+    color: whitesmoke;
+}
+@media(min-width:960px){
+    .header-y-titulo-cont{
+        background: linear-gradient(90deg, #5080da 0%, #2d0000 73%);
+        height: 100vh;
+    }
+}
+.titulo{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+@media(min-width:960px){
+    .titulo{
+        font-size: 75px;
+    }
+}
+.portfolio-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 960px){
+    .portfolio-cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.portfolio-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+    color: whitesmoke;
+    padding: 40px
+}
+@media (min-width: 960px){
+    .portfolio-item{
+        width: 600px;
+        height: 600px;
+        align-items: center;
+    }
+}
+.portfolio__image{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+
+}
+@media (min-width: 960px){
+    .portfolio__image{
+        width: 500px;
+        height: 300px;
+    }
+}
+.portfolio__title{
+    font-size: 25px;
+}
+@media (min-width: 960px){
+    .portfolio__title{
+    text-align: center;
+    font-size: 35px;
+    }
+}
+.portfolio__description{
+    width: 300px;
+}
+@media (min-width: 960px){
+    .portfolio__description{
+    text-align: center;
+    }
+}
+.portfolio__url{
+    text-decoration: none;
+    color: orange;
+}
+

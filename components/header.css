@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
+@media(min-width:960px){
+    .header__logo{
+        width: 200px;
+        height: 200px;
+    }
+}
+.header__abrir-menu{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.header__abrir-menu-icono{
+    width: 65px;
+    height: 65px;
+    border-radius: 4px;
+    }
+    @media(min-width:960px){
+    .header__abrir-menu-icono{
+        display: none;
+    }   
+    }
+    .header__ventana-cont{
+        display: none;
+    }
+    .header__ventana{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        
+        background: linear-gradient(360deg, #270627 0%, #358282 100%);
+        
+    }
+    .header__ventana-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding: 0;
+    }
+    .header__ventana-menu > li{
+        color: whitesmoke;
+        font-size: 50px;
+        list-style: none;
+        text-decoration: none;
+    }
+    .header__ventana-menu > li > a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: "Fredoka One";
+    }
+    .header__cerrar-ventana{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;    
+        position: absolute;
+        top: 4px;
+        right: 6px;
+
+    }
+    .header__cerrar-ventana-icono{
+        width: 55px;
+        height: 55px;
+    }
+    .header__nav-menu{
+        display: none;
+    }
+    @media(min-width:960px){
+        .header__nav-menu{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            padding-right: 40px;
+        }
+        .header__nav-menu > li{
+            list-style: none;
+        }
+        .header__nav-menu > li > a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-family: "Fredoka One";
+            font-size: 30px;
+        }
+
+    }

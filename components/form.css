@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    margin: 0;
+}
+
+.form{
+    background-color: rgb(10, 1, 31);
+    color: whitesmoke;
+    font-family: "Fredoka One";
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (min-width:960px){
+    .form{
+        flex-direction: row;
+        gap: 60px;
+        align-items: flex-start;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        
+    }
+}
+.form__title{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.form__label{
+    font-size: 20px;
+    font-weight: 100;
+}
+.form__input{
+    min-width: 280px;
+    height: 40px;
+    background-color: rgb(60, 60, 95);
+    font-size: 20px;
+    border-radius: 4px;
+    border: 0;
+    color: whitesmoke;
+}
+@media (min-width:960px){
+    .form__input{
+        min-width: 320px;
+        height: 50px;
+    }
+}
+.form__textarea{
+    font-family: "Fredoka One";
+    min-width: 280px;
+    height: 80px;
+    background-color: rgb(60, 60, 95);
+    border-radius: 4px;
+    font-size: 20px;
+    border: 0;
+    color: whitesmoke;
+}
+@media (min-width:960px){
+    .form__textarea{
+        min-width: 320px;
+        height: 150px;
+    }
+}
+
+.form__submit-button{
+    font-family: "Fredoka One";
+    font-size: 20px;
+    margin-top: 80px;
+    min-width: 280px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: azure;
+    
+}
+@media (min-width:960px){
+    .form__submit-button{
+        min-width: 320px;
+        height: 55px;
+    }
+}

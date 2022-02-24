@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    margin:0;
+    
+
+}
+.footer{
+    background-color: rgb(60, 60, 95);
+    width: 100%;
+    asdheight: 40vh;
+    font-family: "Fredoka One";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 960px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer__logo{
+    width: 200px;
+    height: 200px;
+    
+}
+
+@media (min-width: 960px){
+    .footer__logo{
+        width: 250px;
+        height: 250px;
+        padding-left: 60px;
+    }
+}
+
+ul{
+    padding: 0;
+}
+@media (min-width: 960px){
+    ul{
+        padding-right: 60px;
+    }
+}
+    li{
+    list-style: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.footer__redes-list-logo{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(56, 55, 55, 0);
+}
+li > a{
+    color: whitesmoke;
+    text-decoration: none;
+}

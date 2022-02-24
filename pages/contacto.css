@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+}
+
+.header-and-form{
+    
+    background-color: rgb(10, 1, 31);
+}
+@media(min-width:960px){
+    .header-and-form{
+        
+        background: linear-gradient(120deg, #270627 0%, #114e4e 54%, #0c6923 100%);
+
+    }
+}
+header{
+    margin-bottom: 100px;
+}
+
+.form{
+    background-color: rgb(10, 1, 31);
+    
+}
+@media(min-width:960px){
+    .form{
+        background-color: rgba(255, 235, 205, 0);
+        
+    }
+}
