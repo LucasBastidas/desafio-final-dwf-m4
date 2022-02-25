@@ -39,7 +39,7 @@ body{
 .presentacion{
     color: whitesmoke;
     font-family:"Fredoka One" ;
-    background-color: rgb(10, 1, 31);
+    background-color: rgb(10 1 31 / 90%);;
     width: auto;
     text-align: center;
     padding-left: 20px;
