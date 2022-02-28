@@ -16,8 +16,7 @@ body{
     color: whitesmoke;
     font-family:"Fredoka One" ;
     width: auto;
-    height: 100vh;
-    gap: 50px;
+    padding-bottom: 400px;
     display: flex;
     flex-direction: column;
     gap: 300px;
@@ -52,7 +51,6 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 60vh;
     }
 }
 .presentacion__imagen{
@@ -93,7 +91,6 @@ body{
 }
 @media(min-width: 960px){
     .servicios{
-        height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
